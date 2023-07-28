@@ -13,13 +13,12 @@ Usage
 
 Contributing
 
-License
-
 **Introduction**
 
 This program is a Java application that uses the CFMail library to send emails with attachments. It provides a simple and convenient way to send emails with files attached to them.
 
-How to Use
+**How to Use**
+
 Clone the repository or copy the Java code into your preferred Java IDE.
 
 Replace the email addresses in the main method with the sender and recipient email addresses.
@@ -30,11 +29,14 @@ Set the email sender's username and password to allow the application to send em
 
 Run the Main class to send the email with attachments.
 
-Dependencies
+**Dependencies**
+
 This program relies on the CFMail library for email sending functionality. Ensure you have the CFMail library added to your project's build path before running the application.
 
-Usage
+**Usage**
+
 The Main class contains the main method, which initializes the CFMailOptions object with email details, attachment files, and SMTP server settings. After setting up the options, the CFMail.sendEmail() method is called to send the email with attachments.
 
-Contributing
+**Contributing**
+
 Contributions to this project are welcome! If you encounter any bugs or want to enhance the functionality, feel free to submit issues or pull requests.
